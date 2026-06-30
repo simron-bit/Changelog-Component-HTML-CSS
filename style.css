@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+/* Styling the main-box */
+#main-box {
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 2rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 3rem;
+}
+
+/*creating a class to style the opacity of sentences present */
+.low-opacity {
+    opacity: 0.5
+}
+
+#changelog {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dates {
+    text-align: right;
+}
+
+#items {
+    text-align: left;
+}
+
+#changelog p {
+    line-height: 2rem;
+}
+
+#view-btn {
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Media queries for responsiveness */
+
+@media(max-width: 849px) {
+    #head p {
+        display:none;
+    }
+}
+
+@media(max-width: 745px) {
+    #dates span {
+        display: none;
+    }
+}
+
+@media(max-width: 571px) {
+    html {
+        font-size: 62.5%;
+    }
+}
